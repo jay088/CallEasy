@@ -100,7 +100,6 @@ public class simpleCallFragment extends Fragment {
 
 
         //fetch the Phone's contact list (native contacts) into a common ArrayList "contactList" for both input boxes to use
-        Log.v("VERBOSE_POPULATE_PHONELIST","2. PRE populated");
         populateContactList();
         Log.v("VERBOSE_POPULATE_PHONELIST","3. Lists populated");
         autoCompleteAdapter = new SimpleAdapter(this.getActivity(),contactList, R.layout.customcontactview, new String[] { "Name", "Phone" }, new int[] { R.id.contName, R.id.contNum });

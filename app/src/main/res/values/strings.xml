@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CallEasy</string>
+    <string name="access_number_message">Choose the access number</string>
+    <string name="prefix_number_message">Enter the prefix here</string>
+    <string name="target_number_message">Enter the target number here</string>
+    <string name="savePrefButtonText">Save Preferences</string>
+    <string name="callButtonText">Call</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="country_code_check">Remove country code from Target number?</string>
+    <string name="country_code_edit_text">Please specify if you need the country code removed from the Target Number. Eg. specifying 91 as the country code will remove the preceeding \'91\' (if found) from your Target\'s phone no.</string>
+
+</resources>

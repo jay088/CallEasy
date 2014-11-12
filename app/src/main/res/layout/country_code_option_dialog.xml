@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/AppTheme">
+
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="match_parent"
+        android:text="@string/country_code_edit_text"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/countryCodeTextView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:maxLength="3"
+        android:id="@+id/countryCodeEditText"
+        android:layout_marginLeft="20dp"
+        android:hint="Country Code here" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok,Save!"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/countryCodeSaveButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/countryCodeCancelButton" />
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/fragment_simple_call"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/simple_call_fragment_progress_bar"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/access_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/access_number_message"/>
+
+    <EditText
+        android:id="@+id/prefix_number"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/prefix_number_message"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Pin"
+        android:id="@+id/pinCheckBox"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country_code_check"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/countryCheckBox" />
+
+    <AutoCompleteTextView
+        android:id="@+id/target_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/target_number_message"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/savePrefButtonText"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="210dp"
+        android:text="@string/callButtonText"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_green_dark"/>
+</LinearLayout>

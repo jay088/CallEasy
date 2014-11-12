@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/jay/Documents/CallEasy/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-4d0fd307b591809774e604e7727bbb2fcacfc0fe.jar"
+        jar="/Users/jay/Documents/CallEasy/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/Users/jay/Documents/CallEasy/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-ee576f91b45a6538d4156fc6e674b6f65034f74e.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/Users/jay/Documents/CallEasy/app/build/intermediates/pre-dexed/debug/classes-0a2618a5ccdb9063527a31dd9acde443d1c9f3db.jar"
+        jar="/Users/jay/Documents/CallEasy/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+
+</pre-dex-items>

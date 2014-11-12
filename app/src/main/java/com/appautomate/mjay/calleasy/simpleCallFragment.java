@@ -55,8 +55,6 @@ public class simpleCallFragment extends Fragment {
 
         View simpleCallFragment = inflater.inflate(R.layout.fragment_simple_call,container,false);
 
-        Log.v("VERBOSE_POPULATE_PHONELIST","1. Entered here");
-
         //intitialize references to layout components
         autCompTxtVwAccessNum = (AutoCompleteTextView) simpleCallFragment.findViewById(R.id.access_number);
         autCompTxtVwPhoneNum = (AutoCompleteTextView) simpleCallFragment.findViewById(R.id.target_number);
